@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News App</title>
+</head>
+<body style="margin:0; font-family:Arial; background:linear-gradient(135deg,#1f4037,#99f2c8); display:flex; justify-content:center; align-items:center; height:100vh;">
+
+    <div style="background:white; padding:25px; border-radius:15px; width:400px; box-shadow:0 10px 25px rgba(0,0,0,0.2);">
+
+        <h2 style="text-align:center;">📰 Latest News</h2>
+
+        <button onclick="getNews()" 
+            style="width:100%; padding:10px; border:none; border-radius:8px; background:#1f4037; color:white; font-size:16px; cursor:pointer;">
+            Load News
+        </button>
+
+        <div id="newsContainer" style="margin-top:20px; max-height:300px; overflow-y:auto;"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
